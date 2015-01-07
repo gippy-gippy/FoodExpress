@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Food Express</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Enter what you want to eat</string>
+    <string name="search_food">Enter what you want to eat:</string>
+    <string name="main_title">Food Express</string>
+    <string name="search_button">GO</string>
+    <string name="select_train">Select your train from the list</string>
+    <string name="bogey_select">Select your bogey</string>
+    <string name="select_bogey">Search</string>
+    <string name="jcaj">service center</string>
+    <string name="as">start service</string>
+    <string name="klfdjlnfdndnf">stop service</string>
+    <string name="best">Best Option</string>
+    <string name="nearest">Nearest Option</string>
+    <string name="all_options">All Options</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="notyet">Not Yet</string>
+    <string name="dk">Submit</string>
+    <string name="csjkdncsjk">Rate</string>
+    <string name="lksahukshdka">Nearest Station:</string>
+    <string name="xcvhjk">Select the shop you bought from</string>
+	<string name="rate_text">How much you liked it ??</string>
+    <string name="review_text">Please leave a review if you want</string>
+    <string name="name_hint">your name here</string>
+    <string name="review_hint">review, suggestions, anything in your mind</string>
+    <string name="submit_label">Submit</string>
+    <string name="poiytfvb">How much did you like it?</string>
+    <string name="edfvhj">Leave a review if you want</string>
+    <string name="hkfnvkjsdcccc">ThankYou</string>
+</resources>

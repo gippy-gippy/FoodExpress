@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Color_3"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <TextView
+        android:id="@+id/nearest_station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bogey_select"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/bogey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textfield" />
+
+    <Button
+        android:id="@+id/select_bogey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_bogey" />
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Color_7" >
+
+    <TextView
+        android:id="@+id/ratingreviewtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:text="@string/poiytfvb"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar1"
+        android:layout_below="@+id/ratingBar1"
+        android:layout_marginTop="52dp"
+        android:text="@string/edfvhj"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/ratingBar1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="18dp"
+        android:background="@color/textfield"
+        android:ems="10"
+        android:hint="@string/name_hint"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/ratingBar1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="16dp"
+        android:background="@color/textfield"
+        android:ems="10"
+        android:hint="@string/review_hint"
+        android:inputType="textMultiLine" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingreviewtv"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/submit_review_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="45dp"
+        android:text="@string/submit_label" />
+
+</RelativeLayout>

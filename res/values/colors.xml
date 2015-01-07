@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#3500ffff</color>
+    <color name="textfield">#ffffff</color>
+    <color name="Color_2">#6dcaec</color>
+	<color name="Color_3">#cf9fe7</color>
+	<color name="Color_4">#b6db49</color>
+	<color name="Color_5">#ffd060</color>
+	<color name="Color_6">#ff7979</color>
+	<color name="Color_7">#81f7d8</color>
+	<color name="Color_8">#faac58</color>
+	<color name="Color_9">#819ff7</color>
+	<color name="Color_10">#f3f781</color>
+	<color name="Color_11">#81f781</color>
+    <color name="Color_12">#DBD7D7</color>
+    <color name="Black">#000000</color>
+</resources>
